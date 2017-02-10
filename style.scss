@@ -12,27 +12,76 @@
   width: 76px;
 }
 
+//form{
+  //right: 23px;
+//}
+
 input[type=text] {
-  width: 10px;
+  width: 342px;
+  height: 30px;
+  position: relative;
+  left: 23px;
+  top: 10px;
+  display: inline-block;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 15px;
+
+}
+
+button {
+  position: relative;
+  height: 36px;
+  width: 78px;
+  background-color: #34A8C4;
+  font-size: 15px;
+  font-family: 'Titillium Web', sans-serif;
+  color: white;
+  left: 18px;
+  top: 10px;
+  border-color: #2F98B1;
+  border-style: solid ;
+
 }
 
 .footerwords1 {
   float: right;
   padding-right: 10px;
+  top: 23px;
+  position: relative;
+  padding-right: 20px;
+  color: #0192BA;
+  right: 45px;
 }
 
 .footerwords2 {
+  position: relative;
   float: right;
-  padding-right: 10px;
+  padding-right: 20px;
+  top: 23px;
+  color: #0192BA;
+  right: 45px;
 }
 
 .footerwords3{
+  position: relative;
   float: right;
-  padding-right: 10px;
+  padding-right: 20px;
+  top: 23px;
+  color: #0192BA;
+  right: 45px;
+  border: solid 1px;
+  height: 33px;
+  width: 55px;
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-left: 5px;
 }
 
 .cart {
+  position: relative;
   float: right;
+  top: 23px;
+  border-left: solid 1px;
 }
 
 .nav {
