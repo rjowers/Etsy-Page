@@ -20,9 +20,12 @@
 var putImages;
 for(var count = 0; count < items.results.length; count++){
   putImages = $(".alltheitems").html();
-  putImages += `<div class="image"><img src="${items.results[count].Images[0].url_170x135}"/>
-   <p class="title">${items.results[count].title}"</p>
-  <p class="title">${items.results[count].title}"</p> </div>`;
+  putImages +=
+  `<div class="image"><img src="${items.results[count].Images[0].url_170x135}" width = "225"/>
+   <p class="title">${items.results[count].title}</p>
+  <p class="shopname">${items.results[count].Shop.shop_name}</p>
+  <p class="money">${items.results[count].price}</p>
+   </div>`;
   $(".alltheitems").html(putImages);
 };
 

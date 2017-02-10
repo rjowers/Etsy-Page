@@ -9,7 +9,11 @@
   padding-left: 20px;
   padding-top: 15px;
   height: 35px;
-  width: auto;
+  width: 76px;
+}
+
+input[type=text] {
+  width: 10px;
 }
 
 .footerwords1 {
@@ -43,29 +47,61 @@
 }
 
 .sidebar {
-  width: 250px;
+  width: 229px;
+  height: 407px;
   border: solid;
+  float: left;
+  margin-right: 25px;
 }
 
 .alltheitems {
 display: inline-block;
 float: left;
+width: 1000px;
 }
 
 .image {
-  margin: 20px;
-  width: 20%;
-  height: 100px;
+  margin-right: 20px;
+  border-top: .5px solid #EEEFEB;
+  border-right: .5px solid #EEEFEB;
+  border-left: .5px solid #EEEFEB;
+  border-bottom: .5px solid #CCCDCA;
   display: inline-block;
+  height: 223px;
+  margin-bottom: 20px;
 }
 
 .title {
 
 }
 
-.title p {
+p.title {
   overflow: hidden;
-  width: 100px;
-  height: 10px;
+  width: 215px;
+  height: 14px;
+  font-family: helvetica neue ;
+  font-size: 12px;
+  margin-top: 2px;
+  margin-bottom: -8px;
+  margin-left: 5px;
+}
 
+p.shopname {
+
+  height: 14px;
+  float: left;
+  font-family: helvetica neue ;
+  font-size: 12px;
+  margin-left: 7px;
+  color: #9A9A9D;
+}
+
+p.money {
+
+  height: 14px;
+  float: right;
+  font-family: helvetica neue ;
+  font-size: 12px;
+  color: #78C042;
+  margin-right: 7px;
 }
