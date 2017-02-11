@@ -1,5 +1,9 @@
+* {
+  font-family: helvetica neue;
+}
+
 .header {
-    border-bottom-style: solid;
+
     height: 80px;
 }
 
@@ -39,7 +43,7 @@ button {
     border-style: solid;
 }
 
-.footerwords1 {
+.headerwords1 {
     float: right;
     padding-right: 10px;
     top: 23px;
@@ -49,7 +53,7 @@ button {
     right: 45px;
 }
 
-.footerwords2 {
+.headerwords2 {
     position: relative;
     float: right;
     padding-right: 20px;
@@ -58,7 +62,7 @@ button {
     right: 45px;
 }
 
-.footerwords3 {
+.headerwords3 {
     position: relative;
     float: right;
     top: 18px;
@@ -98,26 +102,63 @@ button {
 .nav {
     height: 40px;
     width: auto;
-    border-bottom-style: solid;
+    border-bottom:  #EEEEEE solid 1px;
+    border-top:  #EEEEEE solid 1px;
 
     span {
         padding-right: 20px;
+        position: relative;
+        top: 30%;
+
     }
 }
 
+
+.sidebarhead {
+  position: relative;
+  top: 35px;
+  margin-left: 36px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
 .sidebar {
-    width: 229px;
-    height: 407px;
+    width: 212px;
+    height: 430px;
     border: solid;
     float: left;
     margin-right: 25px;
+    margin-top: 58px;
+    margin-left: 20px;
+    font-size: 14px;
+    border:  #EEEEEE solid 1px;
+
+
+.all {
+  padding-left: 10px;
+  position: relative;
+  top: 10px;
+  font-weight: bold;
 }
 
+}
+
+.sidebarli{
+  list-style: none;
+  padding-left: 28px;
+  line-height: 25px;
+  padding-top: 20px;
+  margin-top: 0px;
+  color: #0192BA;
+}
 .alltheitems {
     display: inline-block;
     float: left;
     width: 1000px;
+    
 }
+
+
 
 .image {
     margin-right: 20px;
@@ -130,7 +171,41 @@ button {
     margin-bottom: 20px;
 }
 
-.title {}
+.alltheitemsheader{
+  margin-bottom: 30px;
+}
+
+.allcategories {
+  float: left;
+  font-size: 14px;
+
+  .categories {
+  color: #0192BA;
+  }
+  .whiskey {
+    color: #444444;
+  }
+
+  .results {
+    opacity: .7;
+  }
+
+}
+
+.relevant {
+  font-size: 14px;
+  float: right;
+
+  .Sort {
+    opacity: .7;
+  }
+
+  .Relevancy{
+    color: #0192BA;
+  }
+
+}
+
 
 p.title {
     overflow: hidden;
@@ -160,3 +235,15 @@ p.money {
     color: #78C042;
     margin-right: 7px;
 }
+
+.relatedbox{
+
+
+}
+
+
+
+
+//related-list {
+  //height: 120px;
+  //width: 934px;
