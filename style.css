@@ -52,22 +52,31 @@ button {
 .footerwords3 {
   position: relative;
   float: right;
-  padding-right: 20px;
-  top: 23px;
+  top: 18px;
   color: #0192BA;
   right: 45px;
   border: solid 1px;
   height: 33px;
   width: 55px;
-  padding-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 0px;
   padding-right: 0px;
-  padding-left: 5px; }
+  padding-left: 8px; }
+
+.cartlist {
+  float: right;
+  list-style: none;
+  padding-left: 0px;
+  position: relative;
+  right: 25px;
+  font-size: 14px;
+  border-left: #EEEEEE solid 1px;
+  padding-left: 15px;
+  opacity: .6; }
 
 .cart {
-  position: relative;
-  float: right;
-  top: 23px;
-  border-left: solid 1px; }
+  height: 22px;
+  width: 20px; }
 
 .nav {
   height: 40px;
@@ -90,10 +99,10 @@ button {
 
 .image {
   margin-right: 20px;
-  border-top: .5px solid #EEEFEB;
-  border-right: .5px solid #EEEFEB;
-  border-left: .5px solid #EEEFEB;
-  border-bottom: .5px solid #CCCDCA;
+  border-top: 0.5px solid #EEEFEB;
+  border-right: 0.5px solid #EEEFEB;
+  border-left: 0.5px solid #EEEFEB;
+  border-bottom: 0.5px solid #CCCDCA;
   display: inline-block;
   height: 223px;
   margin-bottom: 20px; }
