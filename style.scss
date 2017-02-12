@@ -1,5 +1,8 @@
 * {
   font-family: helvetica neue;
+  -moz-border-radius: 3px;
+border-radius: 3px;
+text-decoration: none;
 }
 
 .header {
@@ -18,16 +21,22 @@
 //right: 23px;
 //}
 
-input[type=text] {
+.input[type=text] {
     width: 342px;
     height: 30px;
     position: relative;
     left: 23px;
     top: 10px;
     display: inline-block;
-    font-family: 'Titillium Web', sans-serif;
     font-size: 15px;
+    background-color: #FBFBFA;
+    color: #777780;
+    padding-left: 10px;
+    font-size: 16px;
+    outline:0;
 }
+
+
 
 button {
     position: relative;
@@ -35,7 +44,6 @@ button {
     width: 78px;
     background-color: #34A8C4;
     font-size: 15px;
-    font-family: 'Titillium Web', sans-serif;
     color: white;
     left: 18px;
     top: 10px;
@@ -69,11 +77,11 @@ button {
     color: #0192BA;
     right: 45px;
     border: solid 1px;
-    height: 33px;
+    height: 25px;
     width: 55px;
     padding-top: 5px;
     padding-bottom: 0px;
-    padding-right: 0px;
+    padding-right: 3px;
     padding-left: 8px;
 
 }
@@ -105,6 +113,9 @@ button {
     border-bottom:  #EEEEEE solid 1px;
     border-top:  #EEEEEE solid 1px;
     background-color: white;
+    color: #777780;
+    font-size: 14px;
+    padding-left: 30px;
 
     span {
         padding-right: 20px;
@@ -112,13 +123,17 @@ button {
         top: 30%;
 
     }
+    a {
+      color: #777780;
+    }
 }
 
 
 .sidebarhead {
   position: relative;
   top: 35px;
-  margin-left: 36px;
+  margin-left: 22px;
+  margin-bottom: 20px;
   font-size: 14px;
   font-weight: bold;
 }
@@ -129,7 +144,7 @@ button {
     border: solid;
     float: left;
     margin-right: 25px;
-    margin-top: 58px;
+    margin-top: 30px;
     margin-left: 20px;
     font-size: 14px;
     border:  #EEEEEE solid 1px;
@@ -151,6 +166,10 @@ button {
   line-height: 25px;
   padding-top: 20px;
   margin-top: 0px;
+  color: #0192BA;
+}
+
+a {
   color: #0192BA;
 }
 .alltheitems {
@@ -247,6 +266,8 @@ h2 {
   font-size: 14px;
   font-family: helvetica neue;
   opacity: .6;
+  height: 40px;
+  top: 10px;
 }
 
 ul {
@@ -328,10 +349,42 @@ button:focus {
 
 }
 
+
+.heart {
+    height: 18px;
+    width: 18px;
+    margin-top: 5px;
+    padding: 2px;
+    margin-left: 150px;
+    position: absolute;
+    border: solid .1px white;
+    background-color: white;
+     opacity: .01;
+
+
+}
+
+.hamburger {
+    height: 18px;
+    width: 18px;
+    margin-top: 5px;
+    margin-left: 185px;
+    position: absolute;
+    padding: 2px;
+    border: solid .1px white;
+    background-color: white;
+    opacity: .01;
+}
+
 html {
   margin-bottom: 200px;
   background-color: #FAF9F5;
 
+
+}
+
+.appear{
+  opacity: 1;
 }
 
 

@@ -1,38 +1,40 @@
-//for image -> items.results[0].Images[0].url_75x75
 
-
-//var box = `
-//    <img class="whiskey-pics" src="https://img0.etsystatic.com/126/0/11063629/il_75x75.874258770_it05.jpg">
-
-//  </div>
-//`
-
-
-//function pictures () {
-//for (var i = 0; i < result.length; i++) {
-//items[i]
-//}
-//console.log(pictures)
-//}
 
 
 var putImages;
 for (var count = 0; count < items.results.length; count++) {
     putImages = $(".alltheitems").html();
     putImages +=
-        `<div class="image"><a href = "${items.results[count].url}"><img src="${items.results[count].Images[0].url_170x135}" width = "225"/></a>
-   <p class="title">${items.results[count].title}</p>
-  <p class="shopname">${items.results[count].Shop.shop_name}</p>
-  <p class="money">${items.results[count].price}</p>
-  <a href = ${items.results[count].url}</a>
+    `<div class="image">
+    <div class="icons">
+    <img class="heart" src="heart.png"/>
+    <img class="hamburger" src="hamburger.png"/>
+    </div>
+    <a href = "${items.results[count].url}"><img src="${items.results[count].Images[0].url_170x135}" width = "225"/></a>
+    <p class="title">${items.results[count].title}</p>
+    <p class="shopname">${items.results[count].Shop.shop_name}</p>
+    <p class="money">$${items.results[count].price}</p>
+
    </div>`;
     $(".alltheitems").html(putImages);
 };
 
+//.hover jquery functon
 
+$(".image").hover(function(event) {
+  $(".heart").addClass("appear");
+  $(".hamburger").addClass("appear");
+}, function(event) {
+  $(".heart").removeClass("appear");
+  $(".hamburger").removeClass("appear");
 
+});
 
-
-//$('.alltheitems').html(box)
-
-//$('.alltheitems').html(items.results[0].Images[0].url_75x75)
+function cleartext(){
+  $('.input').value= '';
+}
+function settext(){
+  if($('.input').value=== ''){
+    $('.input').value= 'search for items or shops'
+  }
+}
