@@ -155,7 +155,7 @@ button {
     display: inline-block;
     float: left;
     width: 1000px;
-    
+
 }
 
 
@@ -237,8 +237,36 @@ p.money {
 }
 
 .relatedbox{
+  margin-left: 260px;
+  border: solid;
+  height: 300px;
+  width: auto;
 
+h2 {
+  font-size: 14px;
+  font-family: helvetica neue;
+  opacity: .6;
+}
 
+ul {
+  display: inline-block;
+  list-style: none;
+  line-height: 30px;
+  font-size: 14px;
+  font-family: helvetica neue;
+  padding-left: 0px;
+  padding-right: 150px;
+  color: #0192BA;
+}
+a {
+  text-decoration: none;
+  color: #0192BA;
+}
+
+.relatedlist3{
+  position: relative;
+  bottom: 58px;
+}
 }
 
 
