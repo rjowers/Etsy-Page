@@ -2,6 +2,7 @@
   font-family: helvetica neue; }
 
 .header {
+  background-color: white;
   height: 80px; }
 
 .etsy-logo {
@@ -84,7 +85,8 @@ button {
   height: 40px;
   width: auto;
   border-bottom: #EEEEEE solid 1px;
-  border-top: #EEEEEE solid 1px; }
+  border-top: #EEEEEE solid 1px;
+  background-color: white; }
   .nav span {
     padding-right: 20px;
     position: relative;
@@ -106,7 +108,8 @@ button {
   margin-top: 58px;
   margin-left: 20px;
   font-size: 14px;
-  border: #EEEEEE solid 1px; }
+  border: #EEEEEE solid 1px;
+  background-color: white; }
   .sidebar .all {
     padding-left: 10px;
     position: relative;
@@ -185,7 +188,6 @@ p.money {
 
 .relatedbox {
   margin-left: 260px;
-  border: solid;
   height: 300px;
   width: auto; }
   .relatedbox h2 {
@@ -201,9 +203,50 @@ p.money {
     padding-left: 0px;
     padding-right: 150px;
     color: #0192BA; }
-  .relatedbox a {
+  .relatedbox .relatedlinks {
     text-decoration: none;
     color: #0192BA; }
   .relatedbox .relatedlist3 {
     position: relative;
     bottom: 58px; }
+
+.abovebuttons {
+  font-size: 14px;
+  position: relative;
+  font-family: helvetica neue; }
+  .abovebuttons .abovebuttonlinks {
+    text-decoration: none;
+    color: #0192BA; }
+
+.buttons {
+  right: 20px;
+  position: relative; }
+  .buttons button {
+    height: 40px;
+    width: 35px;
+    float: left;
+    margin-right: 0px;
+    margin-top: 15px;
+    background-color: white;
+    color: black;
+    border: solid 1px  #D9D9D9;
+    font-family: helvetica neue; }
+  .buttons button:hover {
+    background-color: #F7F5EE; }
+  .buttons button:active {
+    border: solid 1px black; }
+  .buttons button:focus {
+    outline: 0; }
+  .buttons .first {
+    background-color: #F7F5EE;
+    color: #9C9B9B; }
+  .buttons .onebutton {
+    background-color: #F7F5EE;
+    border: solid 1px black; }
+  .buttons .dots {
+    background-color: #F7F5EE;
+    color: #9C9B9B; }
+
+html {
+  margin-bottom: 200px;
+  background-color: #FAF9F5; }

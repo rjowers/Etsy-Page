@@ -3,7 +3,7 @@
 }
 
 .header {
-
+    background-color: white;
     height: 80px;
 }
 
@@ -104,6 +104,7 @@ button {
     width: auto;
     border-bottom:  #EEEEEE solid 1px;
     border-top:  #EEEEEE solid 1px;
+    background-color: white;
 
     span {
         padding-right: 20px;
@@ -132,6 +133,7 @@ button {
     margin-left: 20px;
     font-size: 14px;
     border:  #EEEEEE solid 1px;
+    background-color: white;
 
 
 .all {
@@ -238,7 +240,6 @@ p.money {
 
 .relatedbox{
   margin-left: 260px;
-  border: solid;
   height: 300px;
   width: auto;
 
@@ -258,7 +259,7 @@ ul {
   padding-right: 150px;
   color: #0192BA;
 }
-a {
+.relatedlinks {
   text-decoration: none;
   color: #0192BA;
 }
@@ -270,6 +271,68 @@ a {
 }
 
 
+.abovebuttons{
+  font-size: 14px;
+
+  position: relative;
+  font-family: helvetica neue;
+
+
+  .abovebuttonlinks{
+    text-decoration: none;
+    color: #0192BA;
+  }
+
+}
+
+.buttons{
+//margin-left: 243px;
+right:  20px;
+position: relative;
+
+button{
+  height: 40px;
+  width: 35px;
+  float: left;
+  margin-right: 0px;
+  margin-top: 15px;
+  background-color: white;
+  color: black;
+  border: solid 1px  #D9D9D9;
+  font-family: helvetica neue;
+
+}
+button:hover {
+  background-color: #F7F5EE;
+}
+
+button:active{
+  border: solid 1px black;
+}
+button:focus {
+  outline:0;
+}
+.first{
+  background-color: #F7F5EE;
+  color: #9C9B9B;
+}
+.onebutton {
+  background-color: #F7F5EE;
+  border: solid 1px black;
+}
+.dots{
+  background-color: #F7F5EE;
+  color: #9C9B9B;
+}
+
+
+}
+
+html {
+  margin-bottom: 200px;
+  background-color: #FAF9F5;
+
+}
 
 
 //related-list {
