@@ -1,11 +1,8 @@
-
-
-
 var putImages;
 for (var count = 0; count < items.results.length; count++) {
     putImages = $(".alltheitems").html();
     putImages +=
-    `<div class="image">
+        `<div class="image">
     <div class="icons">
     <img class="heart" src="heart.png"/>
     <img class="hamburger" src="hamburger.png"/>
@@ -22,19 +19,20 @@ for (var count = 0; count < items.results.length; count++) {
 //.hover jquery functon
 
 $(".image").hover(function(event) {
-  $(".heart").addClass("appear");
-  $(".hamburger").addClass("appear");
+    $(".heart").addClass("appear");
+    $(".hamburger").addClass("appear");
 }, function(event) {
-  $(".heart").removeClass("appear");
-  $(".hamburger").removeClass("appear");
+    $(".heart").removeClass("appear");
+    $(".hamburger").removeClass("appear");
 
 });
 
-function cleartext(){
-  $('.input').value= '';
+function cleartext() {
+    $('.input').value = '';
 }
-function settext(){
-  if($('.input').value=== ''){
-    $('.input').value= 'search for items or shops'
-  }
+
+function settext() {
+    if ($('.input').value === '') {
+        $('.input').value = 'search for items or shops'
+    }
 }
