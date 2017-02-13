@@ -61,6 +61,11 @@ button {
     right: 45px;
 }
 
+
+.headerwords1:hover {
+  text-decoration: underline;
+}
+
 .headerwords2 {
     position: relative;
     float: right;
@@ -68,6 +73,10 @@ button {
     top: 23px;
     color: #0192BA;
     right: 45px;
+}
+
+.headerwords2:hover {
+  text-decoration: underline;
 }
 
 .headerwords3 {
@@ -86,6 +95,11 @@ button {
 
 }
 
+.headerwords3:hover {
+  background-color:  #d8eef4;
+}
+
+
 .cartlist {
   float: right;
   list-style: none;
@@ -96,6 +110,10 @@ button {
   border-left: #EEEEEE solid 1px;
   padding-left: 15px;
   opacity: .6;
+}
+
+.cartlist:hover {
+  opacity: .9;
 }
 
 .cart {
@@ -171,6 +189,10 @@ button {
 
 a {
   color: #0192BA;
+}
+
+.sidebarli:hover {
+  text-decoration: underline;
 }
 .alltheitems {
     display: inline-block;
@@ -374,6 +396,18 @@ button:focus {
     border: solid .1px white;
     background-color: white;
     opacity: .01;
+}
+
+
+.hamburger:hover {
+    opacity: .9;
+     background-color:#FAF9F5;
+}
+
+
+.heart:hover {
+    opacity: .9;
+     background-color:#FAF9F5;
 }
 
 html {
